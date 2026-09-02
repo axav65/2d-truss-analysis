@@ -1,0 +1,50 @@
+# Let Git detect text files and normalize them in the repository.
+* text=auto
+
+# Python source and configuration files.
+*.py   text eol=lf
+*.pyi  text eol=lf
+*.toml text eol=lf
+*.ini  text eol=lf
+*.cfg  text eol=lf
+
+# Dependency and environment metadata.
+.python-version text eol=lf
+uv.lock         text eol=lf
+
+# Documentation and structured data files.
+*.md   text eol=lf
+*.rst  text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+
+# Unix and PowerShell scripts.
+*.sh  text eol=lf
+*.ps1 text eol=lf
+
+# Windows command scripts.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary images and documents.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+
+# Binary archives and packages.
+*.zip binary
+*.gz  binary
+*.7z  binary
+*.whl binary
+
+# Compiled binary files.
+*.so    binary
+*.dll   binary
+*.dylib binary
+*.exe   binary

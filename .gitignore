@@ -1,0 +1,82 @@
+# ==========================================================
+# 2d-truss-analysis
+# Minimal .gitignore
+# ==========================================================
+
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.venv/
+venv/
+env/
+
+# ------------------------
+# Build & distribution
+# ------------------------
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# ------------------------
+# Testing & coverage
+# ------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ------------------------
+# Static analysis
+# ------------------------
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------
+# IDEs
+# ------------------------
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ------------------------
+# Environment variables
+# ------------------------
+.env
+.env.*
+
+# ------------------------
+# Operating system files
+# ------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------
+# Temporary files
+# ------------------------
+*.log
+*.tmp
+*.bak
+*~
+
+# ------------------------
+# Generated project output
+# ------------------------
+results/
+output/
+reports/
+
+# ==========================================================

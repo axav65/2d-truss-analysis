@@ -1,0 +1,27 @@
+[project]
+name = "2d-truss-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ashkan", email = "axav65@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "flet[all]>=0.86.5",
+    "numpy>=2.5.2",
+    "scipy>=1.18.1",
+]
+
+[project.scripts]
+2d-truss-analysis = "2d_truss_analysis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.5",
+]
